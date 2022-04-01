@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Chihaya';
+    src: url(font/chihayajun.ttf);
+}
+*{
+    font-family: 'Chihaya';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+.ul > a > li{
+    padding: 10px 5px;
+    margin: 10px 5px;
+    background-color: #6699cc;
+    color: whitesmoke;
+
+}
+.ul > a > li:hover{
+    color: black;
+}
+.main-container{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.first-container{
+    /* border: 2px solid black; */
+    flex: 1;
+    order: 1;
+    background-color: #6699cc;
+    padding: 20vh 0px;
+    text-align: center;
+}
+.navbar{
+    /* border: 2px solid black; */
+    margin: 50% 0px;
+}
+.second-container{
+    background-color: #d8d8d8;
+    flex: 4;
+    order: 2;
+    padding: 30px;
+}
+.edit-survey-box{
+    border: 2px solid #f3eeee;
+    box-shadow: 5px 5px 10px;
+    padding: 10px;
+    display: flex;
+    width: 555px;
+    height: 520px;
+    margin-bottom: 25px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title-edit{
+    
+}
+#textArea{
+    resize: none;
+    font-size: 2pc;
+}
+#back-btn{
+    background-color: #6699cc;
+    color: #d8d8d8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Chihaya';
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+    left: 450px;
+    
+}
+#save-changes{
+    background-color: #6699cc;
+    color: #d8d8d8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Chihaya';
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 53px;
+}
+#back-btn:hover,
+#save-changes:hover{
+    background-color: #d8d8d8;
+    color: #6699cc;
+}
